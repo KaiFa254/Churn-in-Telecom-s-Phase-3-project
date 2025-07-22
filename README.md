@@ -5,7 +5,6 @@
 
 Image By: [Freepik](https://www.pinterest.com/pin/380765343511077199/)
 
-
 ## Project Structure and Navigation
 
 - *`README.md` — Project documentation*
@@ -24,14 +23,10 @@ Image By: [Freepik](https://www.pinterest.com/pin/380765343511077199/)
 4. *Conclusion and Recommendations*
 5. *Links and Resources* - *( Data Source)*
 
-
-![](./Images/modelbar.png)
-
 # 1.0 Business Understanding
 
 ### 1.1 Business Context
 SyriaTel is a major tel-com company that just like its competitiors, it experiences customer churn which significantly impact profitability hindering growth and reducing market share. Its also noted that acquairing new customers is more expensive than retaining existing ones.
-
 
 ### 1.2 Problem Statement
 The company want to understand patterns leading to churn as well as be able to identify customers likely to leave in the near future for proper actions of retention stategies 
@@ -53,7 +48,6 @@ From a business perspective, we care most about:
 # 2.0 Data Understanding
 The dataset was obtained from Kaggle, with 3,333 customer records , each with 21 feautures describing customer demographics, usage patterns, service plans, and support interactions. The target variable is churn (True/False).
 
-
 #### Observations from info()
 - No missing values accross the columns, all have 3,333 non-null values hence no imputation required
 - 4 Columns are of Object (categorical) type(state,phone number,international plan and voice mail plan )
@@ -68,7 +62,6 @@ The dataset was obtained from Kaggle, with 3,333 customer records , each with 21
 - we check for highly correlated features and drop some to avoid redundancy , multicolianility and simplicity.
 
 ![](./images/corr_matrix.png)
-
 
 #### Observations
 
@@ -135,7 +128,6 @@ To reduce redundancy and simplify the model:
 # 5.0 Modelling and Evaluation
 
 - i will start with logistic regression model and compare with Decision Tree Model to ascertain churn predictions
-
 
 ## **5.1 (LOGISTIC REGRESSION)**
 ### 5.1.1 Build Pipeline with Preprocessing + SMOTE + RFECV + GridSearch
@@ -222,7 +214,6 @@ A higher AUC means the decision tree is **more confident in its predictions**, w
 - **Decision Tree Model** shows a better trade-off between True Positive Rate (Sensitivity/Recall) and False Positive Rate, making it the superior model for churn prediction.
 - **Logistic Regression**, is not that bad off but has a lower ability to correctly classify churn cases compared to Random Forest.
 
-
 # 6.0 **Conclusion and Recommendations**
 
 ## **Conclusion**
@@ -248,8 +239,6 @@ Based on the performance of the models and insights derived, the following busin
 
 **4. Prioritize Customers with High Call Volume to Support**
 - Many customer service calls correlate with churn — flag these customers for priority support or follow-up calls.
-
-
 
 ## 5. LINKS AND RESOURCES
 
