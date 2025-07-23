@@ -240,7 +240,7 @@ Based on the performance of the models and insights derived, the following busin
 **4. Prioritize Customers with High Call Volume to Support**
 - Many customer service calls correlate with churn — flag these customers for priority support or follow-up calls.
 
-## 5. LINKS AND RESOURCES
+## 7. Links and Resources 
 
 - **Dataset Source** :  [kaggle-churn-in-telecoms-dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)
 
