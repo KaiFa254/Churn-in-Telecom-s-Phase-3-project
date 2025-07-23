@@ -61,7 +61,7 @@ The dataset was obtained from Kaggle, with 3,333 customer records , each with 21
 ### 3.1 Correlation matrix for Numeric Variables 
 - we check for highly correlated features and drop some to avoid redundancy , multicolianility and simplicity.
 
-![](./images/corr_matrix.png)
+![](./Images/corr_matrix.png)
 
 #### Observations
 
@@ -84,7 +84,7 @@ To reduce redundancy and simplify the model:
 - Chi-square was used for categorical variables to test the independence between features and the target.we drop those below 10 score
 - ANOVA F-test was used for numeric variables to check whether feature means differ significantly across churn categories.we drop those less than 2
 
-![](./images/SelectKBest.png)
+![](./Images/SelectKBest.png)
 
 #### Observation from Feature selection using SelectKBest
 - International plan showed the strongest association with churn in categorical features but Voice mail plan was also significant with 25
@@ -93,14 +93,14 @@ To reduce redundancy and simplify the model:
 
 # 4.0 Explolatory Data Analysis (EDA)
 ### 4.1 Target distribution to check balance
-![](./images/Churndistribution.png)
+![](./Images/Churndistribution.png)
 
 #### Observation
 - The Target is inbalanced with only 14% churners. this will be handled by balancing the weight on the regression model to avoid it learning only to predict "NO CHURN"
 
 ### 4.2.0 Feature Distributions
  #### 4.2.1 Numerical Columns Data Distribution
-![](./images/numcolsdistribution.png)
+![](./Images/numcolsdistribution.png)
  
 #### Observations from Numerical Feature Distributions
 - **Customer Service Calls**: Most customers made 1–3 service calls, Frequest customer service calls may signal disatsfaction.
@@ -118,7 +118,7 @@ To reduce redundancy and simplify the model:
 - **Total Night Minutes**: Near-normal distribution centered around 200 minutes.
 
 #### 4.2.2 Categorical Columns Data Distribution
-![](./images/catcolsdistibution.png)
+![](./Images/catcolsdistibution.png)
 
 #### Observations from Categorical Feature Distributions
 
@@ -137,13 +137,13 @@ To reduce redundancy and simplify the model:
 - Finaly i use **RFECV** to automatically *select the most relevant features* after processing and balancing to ensure we **reduce overfitting**.
 
 ### 5.1.2 Predictions/Evaluations (Logistic Regression)
-![](./images/logistic_reg_performance.png)
+![](./Images/logistic_reg_performance.png)
 
 ### 5.1.3 Confusion Mattrix (Logistic Regression)
-![](./images/log_reg_confusion_matrix.png)
+![](./Images/log_reg_confusion_matrix.png)
 
 ### 5.1.4 ROC Curve -  (Logistic Regression)
-![](./images/logistic_reg_ROC_CURVE.png)
+![](./Images/logistic_reg_ROC_CURVE.png)
 
 ## Observations from Logistic Regression Predictions
 
@@ -175,13 +175,13 @@ However, it struggles with precision for churners (31%), meaning it often wrongl
 
 - This model will split data into smaller subsets while at the same time developing an associated decision tree incrementally
 ### 5.2.1 Predictions/Evaluations (Decision Tree Model)
-![](./images/DECISION_TREE_performance.png)
+![](./Images/DECISION_TREE_performance.png)
 
 ### 5.2.2 Confusion Mattrix (Decision Tree Model)
-![](./images/DECISION_TREE_confusion_matrix.png)
+![](./Images/DECISION_TREE_confusion_matrix.png)
 
 ### 5.2.3 ROC Curve -  (Decision Tree Model vs Logistic Regression)
-![](./images/TREE_VS_logistic_reg_ROC_CURVE.png)
+![](./Images/TREE_VS_logistic_reg_ROC_CURVE.png)
 
 ## **Comaparison and Observations from Decision Tree Predictions (Compared to Logistic Regression)**
 
