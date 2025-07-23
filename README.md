@@ -16,12 +16,11 @@ Image By: [4fiber](https://www.pinterest.com/pin/446278644343448716/)
 ## Table of Contents
 1. *Business Understanding*
 2. *Data Understanding*
-3. *Data UPreparation*
+3. *Data Preparation*
 4. *Exploratory Data Analysis (EDA)*
-4. *Modelling*
-4. *Model Evaluation*
-4. *Conclusion and Recommendations*
-5. *Links and Resources* - *( Data Source)*
+5. *Modelling and Evaluation*
+6. *Conclusion and Recommendations*
+7. *Links and Resources* - *( Data Source)*
 
 # 1.0 Business Understanding
 
@@ -240,7 +239,7 @@ Based on the performance of the models and insights derived, the following busin
 **4. Prioritize Customers with High Call Volume to Support**
 - Many customer service calls correlate with churn — flag these customers for priority support or follow-up calls.
 
-## 7. Links and Resources 
+## 7.0 Links and Resources 
 
 - **Dataset Source** :  [kaggle-churn-in-telecoms-dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)
 
