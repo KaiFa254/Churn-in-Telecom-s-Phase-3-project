@@ -3,7 +3,7 @@
 
 ![](./Images/telheader.jfif)
 
-Image By: [Freepik](https://www.pinterest.com/pin/380765343511077199/)
+Image By: [4fiber](https://www.pinterest.com/pin/446278644343448716/)
 
 ## Project Structure and Navigation
 
