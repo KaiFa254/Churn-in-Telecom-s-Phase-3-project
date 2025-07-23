@@ -8,7 +8,7 @@ Image By: [4fiber](https://www.pinterest.com/pin/446278644343448716/)
 ## Project Structure and Navigation
 
 - *`README.md` — Project documentation*
-- *`student.ipynb`  — Jupyter notebook for analysis*
+- *`SyriaTel_Churn.ipynb`  — Jupyter notebook for analysis*
 - *`Images/` — Saved plots and figures*
 - *`Data/` — Dataset files*
 - *`Presentation/` — Project summary slides PDF*
